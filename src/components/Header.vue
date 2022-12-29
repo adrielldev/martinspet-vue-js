@@ -11,13 +11,19 @@ const displayMenu = () => {
 
 
 <template>
-    <div class="header w-100 flex items-center justify-between px-3">
-        <div class="container flex items-center ">
+    <div class="header w-100 flex items-center justify-around px-3">
+        <div class="flex items-center ">
             <img :src="logoImg" class=""/>
     <h1>
         Martinspets
     </h1>
         </div>
+        <div class="menu-desktop hidden mr-30 gap-x-5 sm:flex items-center mt-0.5">
+            <h4>quem somos</h4>
+            <h4>nossos animais</h4>
+            <h4>contato</h4>
+        </div>
+        <button class="menu-desktop-button hidden sm:flex mt-2 p-2 rounded items-center justify-center ">doar</button>
     <div class="sm:hidden">
 
     
@@ -58,9 +64,23 @@ img{
     height: 80px;
 }
 h1{
+    font-weight: 600;
     font-size: 28px;
     font-family: 'Alegreya', serif;
     color: #E0E0E0;
+}
+.menu-desktop h4{
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: #E0E0E0;
+}
+.menu-desktop-button{
+    font-weight: 600;
+    font-family: 'Robot',sans-serif;
+    color: #0B4829;
+    background-color: #fff;
+    
 }
 
 
