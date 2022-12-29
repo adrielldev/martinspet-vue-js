@@ -83,6 +83,7 @@ h1{
     
 }
 .menu-mobile{
+    position: absolute;
     
 }
 .menu-mobile-list {
