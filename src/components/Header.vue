@@ -35,8 +35,8 @@ const displayMenu = () => {
 </div>
 
     </div>
-     <div class="menu-mobile container w-100 flex justify-end pr-4 mt-2" v-if="showMenu">
-        <div class="flex flex-col gap-y-2">
+     <div class="menu-mobile container w-100 flex justify-end pr-5 mt-2" v-if="showMenu">
+        <div class="menu-mobile-list flex flex-col gap-y-2">
             <h4 class="text-center">quem somos</h4>
             <h4 class="text-center">nossos animais</h4>
             <h4 class="text-center">contato</h4>
@@ -81,6 +81,25 @@ h1{
     color: #0B4829;
     background-color: #fff;
     
+}
+.menu-mobile{
+    
+}
+.menu-mobile-list {
+    background-color: #E0E0E0;
+    padding: 30px;
+    width: 30vw;
+    border-radius: 8px;
+}
+.menu-mobile h4{
+    font-size: 14px;
+    padding: 4px;
+    transition: .5s;
+    border-bottom: 1px solid #0B4829;
+}
+.menu-mobile h4:hover{
+    color:#0B4829;
+
 }
 
 
