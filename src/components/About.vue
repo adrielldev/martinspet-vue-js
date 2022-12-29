@@ -76,6 +76,7 @@ import DogIcon from 'vue-material-design-icons/Dog.vue';
 }
 
 .div-paragraphs{
+    font-family: 'Roboto',sans-serif;
     color: #2B2B2B;
 }
 

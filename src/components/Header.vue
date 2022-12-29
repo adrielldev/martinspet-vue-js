@@ -73,7 +73,12 @@ h1{
     font-size: 16px;
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
+    cursor: pointer;
     color: #E0E0E0;
+    transition: .5s;
+}
+.menu-desktop h4:hover{
+    color: #33845B;
 }
 .menu-desktop-button{
     font-weight: 600;
