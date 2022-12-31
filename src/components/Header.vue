@@ -35,7 +35,7 @@ const displayMenu = () => {
 </div>
 
     </div>
-     <div class="menu-mobile container w-100 flex justify-end pr-5 mt-2" v-if="showMenu">
+     <div class="menu-mobile container flex justify-end pr-5 mt-2" v-if="showMenu">
         <div class="menu-mobile-list flex flex-col gap-y-2">
             <h4 class="text-center">quem somos</h4>
             <h4 class="text-center">nossos animais</h4>
